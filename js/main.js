@@ -12,6 +12,7 @@ function getText(){
     console.log(data)
 })
 };*/
+//test
 
 fetch('Sample.txt')
 .then(res => res.text())
