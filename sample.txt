@@ -1,0 +1,3 @@
+i am a sample text file\/n
+
+lorem ipsum

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dit is een test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+    <div class=container>
+        <h1 class="display-4 mb-4"> Fetch API Sandbox</h1>
+        <button class="btn btn-primary mr-4"id="gettext">Get Text</button>
+        <button class="btn btn-warning mr-4" id="getjson">Get JSON DATA</button>
+        <button class="btn btn-success mr-4" id="getapi">Get API DATA</button>
+        <hr>
+        <div id="output"></div>
+        <form id="addpost">
+        <div class="form-group">
+            <input type="text" class="form-control" id="title" placeholder="Title">
+        </div>
+        <div class="form-group">
+            <textarea id="body" class="form-control" placeholder="Body"></textarea>
+        </div>
+        <div>
+            <input type="submit" class="btn btn-secondary" value="submit" >
+        </div>
+        </form>
+    </div>
+    
+<script src="js/main.js"></script>
+</body>
+</html>
